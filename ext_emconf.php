@@ -8,7 +8,7 @@
 $EM_CONF[$_EXTKEY] = array(
     'title' => 'SLUG Auto-Update',
     'description' => 'Automaticly updates the SLUG field in pages, after editing the title or moving the page.',
-    'category' => 'distribution',
+    'category' => 'backend',
     'author' => 'Hendrik Reimers (KERN23)',
     'author_email' => 'info@core23.com',
     'author_company' => 'CORE23.com',
