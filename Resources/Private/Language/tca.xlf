@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2019-11-04T19:00:00Z" product-name="slug_autoupdate">
+        <header/>
+        <body>
+			<trans-unit id="slug_autoupdate" xml:space="preserve">
+				<source>Auto-Update URL-Segment</source>
+			</trans-unit>
+        </body>
+    </file>
+</xliff>
