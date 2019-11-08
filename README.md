@@ -16,7 +16,6 @@ You can disable the AutoUpdate for each page. Subpages still be auto updated if 
 
 ## Todo
 
-* Add Composer JSON
 * Add a little Documentation for TYPO3 Repository.
 * Add new icon
 * ...
