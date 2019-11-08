@@ -1,0 +1,48 @@
+{
+  "name": "hendrikreimers/slug_autoupdate",
+  "type": "typo3-cms-extension",
+  "description": "Extends the TYPO3 Pages with an AutoUpdate of the Slug field, used for speaking URLs.",
+  "keywords": [
+    "TYPO3",
+    "slug",
+    "pages",
+    "url",
+    "uri"
+  ],
+  "homepage": "https://github.com/hendrikreimers/slug_autoupdate/",
+  "support": {
+    "issues": "https://github.com/hendrikreimers/slug_autoupdate/issues"
+  },
+  "authors": [
+    {
+      "name": "Hendrik Reimers (KERN23)",
+      "role": "Developer",
+      "homepage": "http://CORE23.com"
+    }
+  ],
+  "license": [
+    "GPL-3.0-or-later"
+  ],
+  "autoload": {
+    "psr-4": {
+      "K23\\SlugAutoupdate\\": "Classes/"
+    }
+  },
+  "require": {
+    "typo3/cms-core": "~9.5.0||~10.0.0||dev-master"
+  },
+  "replace": {
+    "typo3-ter/slug_autoupdate": "self.version"
+  },
+  "config": {
+    "vendor-dir": ".Build/vendor",
+    "bin-dir": ".Build/bin"
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "slug_autoupdate",
+      "cms-package-dir": "{$vendor-dir}/typo3/cms",
+      "web-dir": ".Build/Web"
+    }
+  }
+}
